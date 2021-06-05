@@ -1,12 +1,3 @@
-tr { 
-    height: 0px;
-    padding: 0px;
-    padding-top     : 0px;
-    padding-bottom  : 0px;
-    min-height: none;
-    max-height: 2px;
-}
-
 /* .tbody tr { line-height: 1px; 
     height: 1px;
     padding-top     : 1px;
