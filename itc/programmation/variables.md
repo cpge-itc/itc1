@@ -8,6 +8,7 @@ jupytext:
 kernelspec:
   display_name: Python 3.8.5 64-bit
   name: python3
+  language: python
 ---
 
 # Variables
@@ -43,6 +44,11 @@ De manière générale, une affectation s'écrit sous la forme suivante :
 ```python
 a = expression
 ```
+````{margin}
+```{danger}
+Le sens du symbole = en mathématiques est très différent. Ainsi, en mathématiques, $x = x + y\times4$ est une équation que l'on peut résoudre en $0 = y\times4$, c'est à dire $y = 0$... rien à voir avec ce que fait Python !
+```
+````
 **Cette affectation a pour effet de calculer la valeur de expression et de mettre cette valeur dans `a`.**
 
 Considérons par exemple les lignes suivantes : 
@@ -57,11 +63,6 @@ Voici le fonctionnement détaillé :
 - `y` est défini en prenant la valeur 3
 - `x + y*4` est calculé, ce qui donne 14
 - `x` prend la valeur 14 
-
-
-```{danger}
-Le sens du symbole = en mathématiques est très différent. Ainsi, en mathématiques, $x = x + y\times4$ est une équation que l'on peut résoudre en $0 = y\times4$, c'est à dire $y = 0$... rien à voir avec ce que fait Python !
-```
 
 | Python | Description | Exemple |
 | --- | --- | --- |
@@ -117,6 +118,11 @@ Donner la valeur de l'expression suivante :
 ```
 
 On peut comparer des `int`/`float` de la façon suivante :
+````{margin}
+```{danger}
+Ne pas confondre `a = b`, qui permet de mettre la valeur de `b` dans `a`, et `a == b` qui permet de tester si `a` et `b` ont la même valeur.  
+```
+````
 | Python | Signification | Exemple |
 | --- | --- | --- |
 | `==` | égal | `0 == 0` vaut `True`, `3.14 == 3` vaut `False` |
@@ -126,16 +132,11 @@ On peut comparer des `int`/`float` de la façon suivante :
 | `>=` | supérieur ou égal | `1 >= 2` vaut `False`, `3.14 >= 3.14` vaut `True` |
 | `!=` | différent | `1 != 2` vaut `True`, `3.14 != 3.14` vaut `False` |
 
+
 Il est possible d'enchaîner des comparaisons. Par exemple, pour tester si $\phi$ est compris entre 1 et 2 :
 ```{code-cell} ipython3
 1 < (1 + 5**0.5)/2 < 2
 ```
-
-```{danger}
-Ne pas confondre `a = b`, qui permet de mettre la valeur de `b` dans `a`, et `a == b` qui permet de tester si `a` et `b` ont la même valeur.  
-```
-
----
 
 ## Booléens
 
