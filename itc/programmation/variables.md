@@ -68,7 +68,8 @@ Une racine peut être calculée avec `**`. Par exemple, $\sqrt{2} = 2^{\frac{1}{
 2**0.5
 ```
 
-```{tabbed} Exercice
+```{admonition} Exercice
+:class: tip
 Utiliser Python pour calculer la valeur (approximative) du nombre d'or $\phi = \frac{1 + \sqrt{5}}{2}$
 ```
 ```{code-cell} ipython3
@@ -77,6 +78,18 @@ Utiliser Python pour calculer la valeur (approximative) du nombre d'or $\phi = \
 ```{code-cell} ipython3
 :tags: ["hide-cell"]
 (1 + 5**0.5)/2
+```
+
+```{admonition} Exercice
+:class: tip
+Donner la valeur de l'expression suivante :
+```python
+(6 + 4**0.5)/2*2
+```
+````
+```{code-cell} ipython3
+:tags: ["hide-cell"]
+(6 + 4**0.5)/2*2
 ```
 
 ---
@@ -103,7 +116,7 @@ Ne pas confondre `a = b`, qui permet de mettre la valeur de `b` dans `a`, et `a 
 | `>=` | supérieur ou égal | `1 >= 2` est `False`, `3.14 >= 3.14` vaut `True` |
 | `!=` | différent | `1 != 2` est `True`, `3.14 != 3.14` vaut `False` |
 
-```{tabbed} Exercice
+```{tipe} Exercice
 Que valent les expressions suivantes?
 ```
 ```{code-cell} ipython3

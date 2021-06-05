@@ -1,0 +1,60 @@
+{
+	"Insert code cell": {
+		"prefix": "code",
+		"body": [
+			"```{code-cell} ipython3",
+			"$0",
+			"```"
+		]
+	},
+	"Insert solution": {
+		"prefix": "solution",
+		"body": [
+			"```{code-cell} ipython3",
+			":tags: [\"hide-cell\"]",
+			"$0",
+			"```"
+		]
+	},
+	"Insert Python": {
+		"prefix": "python",
+		"body": [
+			"```python",
+			"$0",
+			"```"
+		]
+	},
+	"Insert dropdown": {
+		"prefix": "dropdown",
+		"body": [
+			"```{dropdown} $1",
+			"$0",
+			"```"
+		]
+	},
+	"Insert note": {
+		"prefix": "note",
+		"body": [
+			"```{note}",
+			"$0",
+			"```"
+		]
+	},
+	"Insert exercise": {
+		"prefix": "exercise",
+		"body": [
+			"```{admonition} Exercice",
+			":class: tip",
+			"$0",
+			"```"
+		]
+	},
+	"Insert tip": {
+		"prefix": "tip",
+		"body": [
+			"```{tip}",
+			"$0",
+			"```"
+		]
+	}
+}
