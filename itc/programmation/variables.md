@@ -38,42 +38,50 @@ a = -4  # modification de a
 a
 ```
 
-```{danger}
+```{note}
 Même si la définition d'une variable et la modification d'une variable s'écrivent de la même façon en Python (`a = ...`), il s'agit de deux instructions fondamentalement différentes.   
 ```
 
-+++
-
-```{dropdown} Types classiques
-:open:
-| Python | Description | Exemples |
+| Python | Description | Exemple |
 | --- | --- | --- |
 | `int` | entier | `0`, `42`, `-7` |
-| `bool` | booléen (vrai ou faux) | `True`, `False` |
 | `float` | nombre à virgule | `3.14`, `-2.718` |
+| `bool` | booléen (vrai ou faux) | `True`, `False` |
 | `str` | chaîne de caractères | `"blabla"`, `""`, `"info"` |
 | `list` | liste | `[1, 2, 3]`, `[3.14, "chaine", [1, 0]]` |
-```
 
-### Types numériques : `int`, `float`
+## Types numériques : `int`, `float`
 
 * `int` est utilisé pour les entiers (naturels : positif ou négatif).
 
-```{dropdown} Opérations numériques
-:open:
-| Python | Signification | Exemples |
+| Python | Signification | Exemple |
 | --- | --- | --- |
-| `+` | addition | `` vaut `False` |
-| `<` | inférieur strictement | `1 < 2` vaut `True`, `3.14 < 3.14` vaut `False` |
-| `>` | supérieur strictement | `1 > 2` vaut `False`, `3.14 > 3.14` vaut `False` |
-| `<=` | inférieur ou égal | `1 <= 2` vaut `True`, `3.14 <= 3.14` vaut `True` |
-| `>=` | supérieur ou égal | `1 >= 2` vaut `False`, `3.14 >= 3.14` vaut `True` |
-| `!=` | différent | `1 != 2` vaut `True`, `3.14 != 3.14` vaut `False` |
+| `+` | addition | `2 + 3` vaut `5` |
+| `-` | soustraction | `2 - 3` vaut `-1` |
+| `*` | multiplication | `2*3` vaut `6` |
+| `**` | puissance | `2**3` vaut `8` |
+| `/` | division (dans $\mathbb{Q}$) | `5/2` vaut `2.5` |
+| `//` | division **entière** (dans $\mathbb{N}$) | `5//2` vaut `2`  |
+
+Une racine peut être calculée avec `**`. Par exemple, $\sqrt{2} = 2^{\frac{1}{2}}$ :
+```{code-cell} ipython3
+2**0.5
 ```
 
-```{dropdown} Comparaisons numériques
-:open:
-| Python | Signification | Exemples |
+```{tabbed} Exercice
+Utiliser Python pour calculer la valeur (approximative) du nombre d'or $\phi = \frac{1 + \sqrt{5}}{2}$
+```
+```{code-cell} ipython3
+# Votre solution
+```
+```{code-cell} ipython3
+:tags: ["hide-cell"]
+(1 + 5**0.5)/2
+```
+
+---
+
+| Python | Signification | Exemple |
 | --- | --- | --- |
 | `==` | égal | `0 == 0` vaut `True`, `3.14 == 3` vaut `False` |
 | `<` | inférieur strictement | `1 < 2` vaut `True`, `3.14 < 3.14` vaut `False` |
@@ -81,15 +89,12 @@ Même si la définition d'une variable et la modification d'une variable s'écri
 | `<=` | inférieur ou égal | `1 <= 2` vaut `True`, `3.14 <= 3.14` vaut `True` |
 | `>=` | supérieur ou égal | `1 >= 2` vaut `False`, `3.14 >= 3.14` vaut `True` |
 | `!=` | différent | `1 != 2` vaut `True`, `3.14 != 3.14` vaut `False` |
-```
 
-```{note}
+```{danger}
 Ne pas confondre `a = b`, qui permet de mettre la valeur de `b` dans `a`, et `a == b` qui permet de tester si `a` et `b` ont la même valeur.  
 ```
 
-```{dropdown} **Opérateurs booléens**
-:open:
-| Python | Signification | Exemples |
+| Python | Signification | Exemple |
 | --- | --- | --- |
 | `or` | ou | `0 == 0 or 3.14 == 3` vaut `True` |
 | `and` | et | `0 == 0 and 3.14 == 3` vaut `False` |
@@ -98,7 +103,10 @@ Ne pas confondre `a = b`, qui permet de mettre la valeur de `b` dans `a`, et `a 
 | `>=` | supérieur ou égal | `1 >= 2` est `False`, `3.14 >= 3.14` vaut `True` |
 | `!=` | différent | `1 != 2` est `True`, `3.14 != 3.14` vaut `False` |
 
-```{admonition} Exercice
-:class: tip
-- Que vaut `not ()
+```{tabbed} Exercice
+Que valent les expressions suivantes?
+```
+```{code-cell} ipython3
+:tags: ["hide-output"]
+not (1 <= 1 and (1 == 2 or 0 != 1))
 ```

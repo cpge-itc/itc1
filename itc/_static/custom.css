@@ -23,3 +23,11 @@ th {
 th p {
     color: white;
 }
+
+.table td, .table th {
+    vertical-align: middle;
+}
+
+.table p {
+    margin-bottom: 0rem;
+}
