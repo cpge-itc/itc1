@@ -5,9 +5,6 @@ jupytext:
     format_name: myst
     format_version: 0.13
     jupytext_version: 1.10.0
-kernelspec:
-  display_name: Python 3.8.5 64-bit
-  name: python385jvsc74a57bd0916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1
 ---
 
 # Variables
