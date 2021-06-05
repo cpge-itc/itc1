@@ -1,6 +1,6 @@
 {
 	"Insert code cell": {
-		"prefix": "code",
+		"prefix": "cell",
 		"body": [
 			"```{code-cell} ipython3",
 			"$0",
@@ -36,6 +36,14 @@
 		"prefix": "note",
 		"body": [
 			"```{note}",
+			"$0",
+			"```"
+		]
+	},
+	"Insert danger": {
+		"prefix": "danger",
+		"body": [
+			"```{danger}",
 			"$0",
 			"```"
 		]
