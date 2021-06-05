@@ -12,7 +12,8 @@ kernelspec:
 
 # Variables
 
-## Définition
+## Affectation
+
 Une variable en informatique possède 3 caractéristiques :
 - un nom
 - une valeur
@@ -38,8 +39,28 @@ a = -4  # modification de a
 a
 ```
 
-```{note}
-Même si la définition d'une variable et la modification d'une variable s'écrivent de la même façon en Python (`a = ...`), il s'agit de deux instructions fondamentalement différentes.   
+De manière générale, une affectation s'écrit sous la forme suivante :
+```python
+a = expression
+```
+**Cette affectation a pour effet de calculer la valeur de expression et de mettre cette valeur dans `a`.**
+
+Considérons par exemple les lignes suivantes : 
+```{code-cell} ipython3
+x = 2
+y = 3
+x = x + y*4
+print(x)
+```
+Voici le fonctionnement détaillé :
+- `x` est défini en prenant la valeur 2
+- `y` est défini en prenant la valeur 3
+- `x + y*4` est calculé, ce qui donne 14
+- `x` prend la valeur 14 
+
+
+```{danger}
+Le sens du symbole = en mathématiques est très différent. Ainsi, en mathématiques, $x = x + y\times4$ est une équation que l'on peut résoudre en $0 = y\times4$, c'est à dire $y = 0$... rien à voir avec ce que fait Python !
 ```
 
 | Python | Description | Exemple |
@@ -53,6 +74,8 @@ Même si la définition d'une variable et la modification d'une variable s'écri
 ## Types numériques : `int`, `float`
 
 * `int` est utilisé pour les entiers (naturels : positif ou négatif).
+
+Voici les opérations que l'on peut effectuer sur les `int` et `float` :
 
 | Python | Signification | Exemple |
 | --- | --- | --- |
@@ -80,20 +103,20 @@ Utiliser Python pour calculer la valeur (approximative) du nombre d'or $\phi = \
 (1 + 5**0.5)/2
 ```
 
-```{admonition} Exercice
+````{admonition} Exercice
 :class: tip
 Donner la valeur de l'expression suivante :
 ```python
 (6 + 4**0.5)/2*2
 ```
 ````
+
 ```{code-cell} ipython3
 :tags: ["hide-cell"]
 (6 + 4**0.5)/2*2
 ```
 
----
-
+On peut comparer des `int`/`float` de la façon suivante :
 | Python | Signification | Exemple |
 | --- | --- | --- |
 | `==` | égal | `0 == 0` vaut `True`, `3.14 == 3` vaut `False` |
@@ -103,9 +126,19 @@ Donner la valeur de l'expression suivante :
 | `>=` | supérieur ou égal | `1 >= 2` vaut `False`, `3.14 >= 3.14` vaut `True` |
 | `!=` | différent | `1 != 2` vaut `True`, `3.14 != 3.14` vaut `False` |
 
+Il est possible d'enchaîner des comparaisons. Par exemple, pour tester si $\phi$ est compris entre 1 et 2 :
+```{code-cell} ipython3
+1 < (1 + 5**0.5)/2 < 2
+```
+
 ```{danger}
 Ne pas confondre `a = b`, qui permet de mettre la valeur de `b` dans `a`, et `a == b` qui permet de tester si `a` et `b` ont la même valeur.  
 ```
+
+---
+
+## Booléens
+
 
 | Python | Signification | Exemple |
 | --- | --- | --- |
@@ -116,10 +149,14 @@ Ne pas confondre `a = b`, qui permet de mettre la valeur de `b` dans `a`, et `a 
 | `>=` | supérieur ou égal | `1 >= 2` est `False`, `3.14 >= 3.14` vaut `True` |
 | `!=` | différent | `1 != 2` est `True`, `3.14 != 3.14` vaut `False` |
 
-```{tipe} Exercice
-Que valent les expressions suivantes?
+````{admonition} Exercice
+:class: tip
+Donner la valeur de l'expression suivante :
+```python
+not (1 <= 1 and (1 == 2 or 0 != 1))
 ```
+````
 ```{code-cell} ipython3
-:tags: ["hide-output"]
+:tags: ["hide-cell"]
 not (1 <= 1 and (1 == 2 or 0 != 1))
 ```
