@@ -1,9 +1,5 @@
-# Table of content
-# Learn more at https://jupyterbook.org/customize/toc.html
-#
-- file: intro
-
-- part: Programmation en Python
+file: intro
+sections:
+- file: programmation/python
   sections:
-    - file: programmation/python
-    - file: programmation/variables
+  - file: programmation/variables
