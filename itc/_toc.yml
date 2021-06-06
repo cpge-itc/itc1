@@ -2,9 +2,8 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 #
 - file: intro
+
+- part: Programmation en Python
   sections:
+    - file: programmation/python
     - file: programmation/variables
-- file: content
-  sections:
-    - file: markdown
-    - file: notebooks
