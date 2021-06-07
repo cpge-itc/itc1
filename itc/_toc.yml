@@ -1,5 +1,11 @@
-file: intro
+format: jb-article
+root: intro
 sections:
 - file: programmation/python
   sections:
   - file: programmation/variables
+  - file: programmation/fonctions
+  - file: programmation/boucles
+- file: semestre1/semestre1
+  sections:
+  - file: semestre1/recherche

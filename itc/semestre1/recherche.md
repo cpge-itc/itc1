@@ -1,0 +1,1 @@
+# Recherche séquentielle dans un tableau unidimensionnel

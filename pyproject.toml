@@ -6,7 +6,7 @@ authors = ["Quentin Fortier <qpfortier@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-jupyter-book = "^0.10.2"
+jupyter-book = "^0.11"
 cookiecutter = "^1.7.2"
 
 [tool.poetry.dev-dependencies]
