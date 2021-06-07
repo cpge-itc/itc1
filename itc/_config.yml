@@ -14,3 +14,7 @@ execute:
 repository:
   url                       : https://github.com/fortierq/itc/  # Online location of your book
   path_to_book              : itc/
+  branch                    : master
+launch_buttons:
+  thebe                  : true
+  colab_url: "https://colab.research.google.com"

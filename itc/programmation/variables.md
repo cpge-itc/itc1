@@ -110,20 +110,20 @@ Utiliser Python pour calculer la valeur (approximative) du nombre d'or $\phi = \
 # Votre solution
 ```
 ```{code-cell} ipython3
-:tags: ["hide-cell"]
+:tags: [hide-cell]
 (1 + 5**0.5)/2
 ```
 
 ````{admonition} Exercice
 :class: tip
-Donner la valeur de l'expression suivante :
+Calculer à la main la valeur de l'expression suivante :
 ```python
 (6 + 4**0.5)/2*2
 ```
 ````
 
 ```{code-cell} ipython3
-:tags: ["hide-cell"]
+:tags: [hide-cell]
 (6 + 4**0.5)/2*2
 ```
 
@@ -164,7 +164,7 @@ not (1 <= 1 and (1 == 2 or 0 != 1))
 ```
 ````
 ```{code-cell} ipython3
-:tags: ["hide-cell"]
+:tags: [hide-cell]
 not (1 <= 1 and (1 == 2 or 0 != 1))
 ```
 
