@@ -207,21 +207,12 @@ Les indices commencent toujours à 0 en informatique. Le dernier indice d'une li
 `L[-1]` est un raccourci permettant d'accéder au dernier élément d'une liste. De même, `L[-2]` accède à l'avant dernier élément...
 
 Essayer d'accéder à un élément qui n'existe pas produit une erreur :
-``` python
+
+```{code-cell} ipython3
+:tags: [hide-output]
 L = [3, 1, 4]
 print(L[2])  # donne 4
-print(L[3])  # erreur
-```
-```
-4
----------------------------------------------------------------------------
-IndexError                                Traceback (most recent call last)
-<ipython-input-13-e387ee5c742b> in <module>
-      1 L = [3, 1, 4]
-      2 print(L[2])  # pas de problème
-----> 3 print(L[3])  # erreur
-
-IndexError: list index out of range
+print(L[3])  # ERREUR
 ```
 
 ````{margin}
@@ -250,11 +241,12 @@ Les chaînes de caractères (string en anglais) servent à stocker du texte, sou
 
 
 ```{code-cell} ipython3
+:tags: [hide-output]
 s = "l'informatique c'est fun"  # définition d'une chaîne de caractères
 print(len(s))  # taille de s
 print(s[2])  # caractère d'indice 2 (c'est à dire en 3ème position)
-# s[0] = "L"  # ERREUR : on ne peut pas modifier un str
-# s.append("!")  # ERREUR : on ne peut pas modifier un str
+s[0] = "L"  # ERREUR : on ne peut pas modifier un str
+s.append("!")  # ERREUR : on ne peut pas modifier un str
 ```
 
 
@@ -263,9 +255,10 @@ print(s[2])  # caractère d'indice 2 (c'est à dire en 3ème position)
 Les tuples (ou $n$-uplets) sont la généralisation des couples, triplets... Ils ressemblent beaucoup aux chaînes de caractères (en particulier, ils sont immutables) mais servent à stocker autre chose que du texte. 
 
 ```{code-cell} ipython3
+:tags: [hide-output]
 t = (2, 3, 4, 5)
 print(t[1])  # donne 3
 print(len(t))  # donne 4
-# t[1] = 6  ERREUR : on ne peut pas modifier un tuple
-# t.append(6)  # ERREUR : on ne peut pas modifier un tuple
+t[1] = 6  # ERREUR : on ne peut pas modifier un tuple
+t.append(6)  # ERREUR : on ne peut pas modifier un tuple
 ```

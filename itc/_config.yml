@@ -11,6 +11,7 @@ copyright                   : "2021"  # Copyright year to be placed in the foote
 logo                        : logo.png  # A path to the book logo
 execute:
   execute_notebooks: force
+  allow_errors: true
 repository:
   url                       : https://github.com/fortierq/itc/  # Online location of your book
   path_to_book              : itc/
