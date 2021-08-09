@@ -3,7 +3,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
       - '*'
@@ -31,7 +31,7 @@ jobs:
           path: ./_output
 
   deploy:
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/master'
     needs: [build]
     runs-on: ubuntu-latest
     steps:
