@@ -2,7 +2,7 @@
 
 ## Binder
 [Utiliser Jupyter avec Binder](https://mybinder.org/v2/gh/fortierq/itc-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fitc1-2021%26urlpath%3Dlab%252Ftree%252Fitc1-2021%252Ffiles%26branch%3Dmaster)  
-**Attention** : les données ne sont pas sauvegardées. Pensez à download/upload votre travail.
+**Attention** : les données ne sont pas sauvegardées sur Binder. Pensez à download/upload votre travail.
 
 ## Jupyterlite
 [Utiliser Jupyter avec Jupyterlite](https://fortierq.github.io/itc1-2021/)  
