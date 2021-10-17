@@ -4,7 +4,7 @@ Voici les étapes :
 - S'incrire sur Github : https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home
 - Aller dans [dm1.py](https://github.com/fortierq/itc1-2021/blob/master/dm/dm1.py), copier/coller l'énoncé et répondez aux question sur Pyzo ou Jupyter.
 - Pour rendre votre devoir, retourner sur https://github.com/fortierq/oc-m1-2021/tree/master/devoir (remarque : vous pourrez toujours l'éditer par la suite pour faire des modificationns)
-- Cliquer sur éditer
+- Cliquer sur "Edit this file"
 ![](https://user-images.githubusercontent.com/49362475/134974532-aa9ba520-24e0-4c79-929a-a2db4104dae9.png)
 - Copier/Coller votre code
 - Cliquer sur "Propose changes" tout en bas (vous pouvez éventuellement ajouter un commentaire) : 
