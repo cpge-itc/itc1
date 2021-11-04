@@ -15,3 +15,5 @@ Voici les étapes :
 ![](https://user-images.githubusercontent.com/49362475/134974601-0afb2a6a-0bcc-42d1-a043-17afc9fdf7d3.png)
 
 Si vous avez une question, merci de la poser dans l'onglet Discussion sur cette page
+
+Si vous n'arrivez pas à rendre le DM, vous pouvez me l'envoyer par mail : qpfortier@gmail.com
