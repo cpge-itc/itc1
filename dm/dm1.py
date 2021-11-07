@@ -48,9 +48,8 @@ produit([2,1,5,4])
 
 ## 4:
 def egal(L):
-    for i in range (len(L)):
-        if L[0] == L[1] :
-            return True 
+    if(len(set(L))==1):
+        return True
     return False
 egal([1, 2, 4])
 
