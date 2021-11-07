@@ -16,3 +16,42 @@
 
 ## 5. Écrire une fonction carre_parfait telle que carre_parfait(n) renvoie True si n peut être écrit comme le carré d'un entier, False sinon.
 ## Par exemple, carre_parfait(9) doit renvoyer True (car 9 = 3²), carre_parfait(5) doit renvoyer False.
+def somme(n):
+    s=0
+    for i in range(n+1):
+        s+=i
+    return s
+
+def puissance2(n):
+    l=list()
+    for i in range(n):
+        l.append(2**i)
+    return l
+
+def produit(L):
+    L=[2,1,5,4]
+    retour=1
+    for i in range(len(L)):
+        retour=L[i]*retour
+    return retour
+
+L=[1,1,1,1,2]
+def egal(L):
+    s=L[0]
+    res=1
+    for i in range(len(L)):
+        if s==L[i]:
+            res=res*1
+        else:
+            res=res*0
+    if res==1:
+        return True
+    return False
+ 
+import math
+def carre_parfait(n):
+    p=0
+    p=n**0.5
+    if p == math.floor(p):
+        return True
+    return False  
