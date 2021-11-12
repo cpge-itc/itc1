@@ -1,0 +1,57 @@
+site_name: "Informatique commune en MPSI au lycée Fénelon Sainte-Marie"
+site_url: https://fortierq.github.io/itc1
+repo_url: https://github.com/fortierq/itc1
+edit_uri: ""
+nav:
+  - Binder: https://mybinder.org/v2/gh/fortierq/itc-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fitc1-2021%26urlpath%3Dlab%252Ftree%252Fitc1-2021%252Ffiles%26branch%3Dmaster
+  - Python:
+    - Utilisation de Jupyter: files/0_intro/0_jupyter.ipynb
+    - files/1_Python/0_variables.ipynb
+    - files/1_Python/1_fonctions.ipynb
+    - files/1_Python/2_conditions.ipynb
+    - files/1_Python/3_boucles.ipynb
+plugins:
+  - mkdocs-jupyter
+theme:
+  name: material
+  custom_dir: overrides
+  # logo: icon.png
+  # favicon: icon.png
+  features:
+    - navigation.instant
+    - content.code.annotate
+    # - content.tabs.link
+    # - header.autohide
+    # - navigation.expand
+    - navigation.indexes
+    - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - toc.integrate
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+markdown_extensions:
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
