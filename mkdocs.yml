@@ -14,6 +14,7 @@ nav:
     - Fiche de résumé Python: files/1_Python/cours/resume_python.md
   - TPs 1er semestre:
     - files/2_tp_semestre1/1_dictionnaire.ipynb
+    - files/2_tp_semestre1/2_boucles_imbriquees.ipynb
 plugins:
   - mkdocs-jupyter
 theme:
