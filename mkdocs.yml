@@ -17,8 +17,8 @@ plugins:
 theme:
   name: material
   custom_dir: overrides
-  # logo: icon.png
-  # favicon: icon.png
+  logo: snake.png
+  favicon: snake.png
   features:
     - navigation.instant
     - content.code.annotate
