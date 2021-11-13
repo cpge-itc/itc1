@@ -1,6 +1,6 @@
 # Informatique commune de 1ère année en CPGE
 
-Sur ce site, vous trouverez un cours et des exercices corrigés correspondant au nouveau programme d'informatique commune (ITC) en CPGE.  
+Sur ce site, vous trouverez un cours et des exercices corrigés correspondant au nouveau programme d'informatique commune (2021) en CPGE.  
 [Programme officiel](https://prepas.org/index.php?document=72)
 
 L'environnement de développement utilisé dans cours est [Jupyter](https://jupyter.org/). Vous pouvez soit le télécharger en local en suivant les instructions sur https://jupyter.org, soit utiliser une version en ligne :
