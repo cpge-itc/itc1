@@ -10,6 +10,8 @@ nav:
     - files/1_Python/1_fonctions.ipynb
     - files/1_Python/2_conditions.ipynb
     - files/1_Python/3_boucles.ipynb
+    - Cours résumé de Python: files/1_Python/cours/python.md
+    - Fiche de résumé Python: files/1_Python/cours/resume_python.md
   - TPs 1er semestre:
     - files/2_tp_semestre1/2_recherche.ipynb
 plugins:
