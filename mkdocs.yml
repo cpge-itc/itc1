@@ -10,7 +10,7 @@ nav:
     - files/1_Python/1_fonctions.ipynb
     - files/1_Python/2_conditions.ipynb
     - files/1_Python/3_boucles.ipynb
-  - TP du 1er semestre
+  - TPs 1er semestre:
     - files/2_tp_semestre1/2_recherche.ipynb
 plugins:
   - mkdocs-jupyter
