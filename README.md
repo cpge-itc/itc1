@@ -13,6 +13,4 @@ L'environnement de développement utilisé dans cours est [Jupyter](https://jupy
 Jupyterlite se lance normalement plus rapidement que Binder et permet de sauvegarder les fichiers (dans le navigateur).  
 Malheureusement, Jupyterlite est encore en développement et il y a des problèmes (avec Safari, avec les fonctions récursives...). Utiliser Binder si ça ne marche pas.
 
-## Poser des questions
-
-- [Onglet Discussions sur GitHub (ou Issues si vous avez trouvé une erreur dans le cours/les exercices)](https://github.com/fortierq/itc1/discussions)
+## [Poser des questions](https://github.com/fortierq/itc1/discussions)
