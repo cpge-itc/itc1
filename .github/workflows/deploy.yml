@@ -41,6 +41,7 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.3
         with:
+          token: ${{ secrets.API_TOKEN_GITHUB }}
           repository-name: fortierq/itc-jupyterlite
           branch: gh-pages
           folder: dist
