@@ -4,6 +4,7 @@ repo_url: https://github.com/fortierq/itc1
 edit_uri: ""
 nav:
   - Binder: https://mybinder.org/v2/gh/fortierq/itc-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fitc1-2021%26urlpath%3Dlab%252Ftree%252Fitc1-2021%252Ffiles%26branch%3Dmaster
+  - Jupyterlite: https://fortierq.github.io/itc1-jupyterlite
   - Python:
     - files/0_intro/0_jupyter.ipynb
     - files/1_Python/0_variables.ipynb
