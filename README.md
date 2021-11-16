@@ -5,7 +5,7 @@ Sur ce site, vous trouverez un cours et des exercices corrigés correspondant au
 
 ## Jupyter
 
-**Sur chaque TP, Un lien Binder vous permet de lancer Binder avec le TP ouvert.**
+**Sur chaque TP, clliquer sur le titre ou ![Binder](https://mybinder.org/badge.svg) pour lancer Binder avec le TP ouvert.**
 
 L'environnement de développement utilisé dans cours est [Jupyter](https://jupyter.org/). Vous pouvez soit le télécharger en local en suivant les instructions sur https://jupyter.org, soit utiliser une version en ligne :
 
