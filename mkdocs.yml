@@ -19,6 +19,7 @@ nav:
     - files/2_tp_semestre1/1_dictionnaire.ipynb
     - files/2_tp_semestre1/2_boucles_imbriquees.ipynb
     - files/2_tp_semestre1/3_module.ipynb
+    - files/2_tp_semestre1/4_dichotomie.ipynb
 plugins:
   - mkdocs-jupyter
 theme:
