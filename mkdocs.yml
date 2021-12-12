@@ -21,6 +21,7 @@ nav:
     - files/2_tp_semestre1/3_module.ipynb
     - files/2_tp_semestre1/4_dichotomie.ipynb
     - files/2_tp_semestre1/5_recursivite.ipynb
+    - files/2_tp_semestre1/6_fractales.ipynb
 plugins:
   - mkdocs-jupyter
 theme:
