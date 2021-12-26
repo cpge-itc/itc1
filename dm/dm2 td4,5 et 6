@@ -1,0 +1,132 @@
+#td4
+# tp dichotomie
+
+# fonction croissant:
+def c(L):
+    g=L[0]
+    for i in L:
+        if i>=g:
+            g=i
+        else:
+            return "decroissant"
+    if g==L[len(L)-1]:
+        return "coissant"
+
+print(c([1,7,8,10]))
+
+# fonction à completer
+def dichotomie(e, L):
+    i, j = 0, len(L) - 1  # i et j sont les indices de L entre lesquels on cherche e
+    while i!=j: # tant qu'il reste au moins 1 élément entre les indices i et j
+        m = (i+j)//2 # milieu de i et j
+        if e < L[m]:
+            j=m-1 # regarder dans la partie gauche
+        elif e > L[m]:
+            i=m+1 # regarder dans la partie droite
+        else:
+            return True # on a trouvé e
+    return False # e n'a pas été trouvé
+L1, L2, L3 = [0, 2], [0, 2, 5], [-2, 1, 2, 4, 6, 7, 8, 9, 11, 12, 14, 15, 18, 22, 54]
+print(dichotomie(0, L1) and not dichotomie(1, L1))
+print(dichotomie(5, L2) and not dichotomie(7, L2))
+print (dichotomie(14, L3) and not dichotomie(-4, L3))
+
+# fonction puissance
+def p(a, n):
+    return a**n
+# cette fonction effectue n-1 produit
+
+# fonction puissnace rapide
+def puissance_rapide(a, n):
+    r = 1
+    while n != 0:
+        if n % 2 == 1:
+            r = r * a
+        a = a * a
+        n = n // 2
+    return r
+# en executant ce programme a la main on obtient les valeurs de r,a,n suivante
+#1 4 6
+#1 16 3
+#16 256 1
+#4096
+#r*a**n reste la meme valeur dans le while car r*(a**2)**(n//2)= r*a**n
+# dans ce cas, r prend la valeur de a**n telle que à la fin du programme n==0
+
+#td5
+#td fonction recursive
+def d(n):  # exemple de fonction récursive
+    if n == 0:
+        return
+    print("*"*n)
+    d(n-1)
+# fonction dessin
+
+
+
+def de(a):
+    if a == 0:
+        return
+    d(a-1)
+    print("*"*a)
+def d2(n):
+    print(de(n))
+    if n == 0:
+        return
+
+    print("*"*n)
+    d(n-1)
+
+
+
+#fonction somme
+def s(n):
+    a=0
+    for i in range (1,n+1):
+        a+=i**2
+    return a
+#fonction factorielle n
+def  fa(n):
+    if n == 0:
+        return 1
+    else:
+        return fa(n - 1) * n
+
+#dichotomie en recursive
+def di(i, j, e, L):
+    while i!=j:
+         m=(i+j)//2
+         if e > L[m]:
+              di(i,m-1, e, L)
+         elif e<L[m]:
+               di(m+1,j,e,L)
+         else:
+              return True
+    return False
+print(di(2,6,3,[1,5,2,3,6,7,89,5,4]))
+
+#td6
+#td courbe et graphe
+import matplotlib.pyplot as plt
+import numpy as np
+def se(p,q):
+    (x1,y1),(x2,y2)=p,q
+    plt.plot([x1,x2],[y1, y2])
+    return plt.show()
+# fonction rotation
+def rot(r, d ,a):
+     (x1,y1)=r
+     x2=x1+d*np.cos(a)
+     y2=y1+d*np.sin(a)
+     p=(x2,y2)
+     return p
+
+print(rot((x1,y1),np.sqrt((x2-x1)**2+(y2-y1)**2)),np.pi/4)# cette instruction verifie de maniere generale si la fonction precedente avec la fonction segment si p=(x2,y2)
+
+#fonction x+cos(x)
+def f(x):
+    y=x+np.cos(x)
+    plt.plot(x,y)
+    return plt.show()
+
+
