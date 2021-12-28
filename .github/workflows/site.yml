@@ -21,6 +21,8 @@ jobs:
         with:
           node-version: '16'
 
+      - uses: fortierq/add-binder-link-action@v1
+
       - run: |
           pip install mkdocs-material scipy
           mkdir -p docs
