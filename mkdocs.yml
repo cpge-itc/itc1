@@ -24,6 +24,7 @@ nav:
     - files/2_tp_semestre1/6_fractales.ipynb
     - files/2_tp_semestre1/7_glouton.ipynb
     - files/2_tp_semestre1/8_matrice_image.ipynb
+    - files/2_tp_semestre1/9_tris.ipynb
 plugins:
   - mkdocs-jupyter
 theme:
