@@ -25,6 +25,7 @@ nav:
     - files/2_tp_semestre1/7_glouton.ipynb
     - files/2_tp_semestre1/8_matrice_image.ipynb
     - files/2_tp_semestre1/9_tris.ipynb
+    - files/2_tp_semestre1/10_mastermind.md
 plugins:
   - mkdocs-jupyter
 theme:
