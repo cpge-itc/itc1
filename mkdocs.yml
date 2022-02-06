@@ -27,6 +27,8 @@ nav:
     - files/2_tp_semestre1/9_tris.ipynb
     - "TP 10 : Jeu du Mastermind": files/2_tp_semestre1/10_mastermind.md
     - "TP 11 : Jeu du Puissance 4": files/2_tp_semestre1/11_puissance4/puissance4.md
+  - Analyse d'algorithmes:
+    - files/3_algorithm_analysis/1_complexity/slides/complexite.md
 plugins:
   - mkdocs-jupyter
 theme:
