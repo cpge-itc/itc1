@@ -32,7 +32,7 @@ nav:
   - Analyse d'algorithmes:
     - Complexité: 
       - Cours: files/3_algorithm_analysis/1_complexity/slides/complexite.md
-      - TP: files/3_algorithm_analysis/1_complexity/tp/tp_complexite.md
+      - TP tranche minimum: files/3_algorithm_analysis/1_complexity/tp/tp_complexite.md
 plugins:
   - mkdocs-jupyter
 theme:
