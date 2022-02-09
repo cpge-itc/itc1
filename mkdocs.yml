@@ -7,6 +7,8 @@ nav:
   - Jupyterlite: https://fortierq.github.io/itc1-jupyterlite
   - DS:
     - Concours blanc: ds/ds1_correction.md
+    - DS 2: ds/ds2.pdf
+    - Corrigé DS 2: ds/DS2corrigé.md
   - Python:
     - files/0_intro/0_jupyter.ipynb
     - files/1_Python/0_variables.ipynb
