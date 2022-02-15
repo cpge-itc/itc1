@@ -33,7 +33,7 @@ nav:
     - Complexité: 
       - Cours: files/3_algorithm_analysis/1_complexity/slides/complexite.md
       - "TP 1 : tranche minimum": files/3_algorithm_analysis/1_complexity/tp/tp_complexite.md
-      - "TP 2 : complexité de dichotomie et tri": files/3_algorithm_analysis/1_complexity/tp2/tp_complexity2.ipynb
+      - files/3_algorithm_analysis/1_complexity/tp2/tp_complexity2.ipynb
 plugins:
   - mkdocs-jupyter
 theme:
