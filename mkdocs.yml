@@ -34,9 +34,10 @@ nav:
       - Cours: files/3_algorithm_analysis/1_complexity/slides/complexite.md
       - "TP 1 : tranche minimum": files/3_algorithm_analysis/1_complexity/tp/tp_complexite.md
       - files/3_algorithm_analysis/1_complexity/tp2/tp_complexity2.ipynb
+  - Preuve de programme:
+      - Cours: files/3_algorithm_analysis/2_proof/slides/proof.md
   - files/tp_parcoursup.ipynb
-  #- Preuve de programme:
-  #    - Cours: files/3_algorithm_analysis/2_proof/slides/proof.md
+  
   
 plugins:
   - mkdocs-jupyter
