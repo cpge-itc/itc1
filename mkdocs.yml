@@ -39,7 +39,9 @@ nav:
         - Cours: files/3_algorithm_analysis/2_proof/slides/proof.md
   - Représentation des nombres:
     - Représentation des entiers: files/4_representation/1_representation_int/representation_entiers.md
-    - TP Représentation des entiers: files/4_representation/1_representation_int/td/TP_binaire.md
+    - TP représentation des entiers: files/4_representation/1_representation_int/td/TP_binaire.md
+    - Représentation des flottants: files/4_representation/2_representation_float/representation_flottants.md
+    - TP représentation des flottants: files/4_representation/2_representation_float/tp/tp_flottant.md
 plugins:
   - mkdocs-jupyter
 theme:
