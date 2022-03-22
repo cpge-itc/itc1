@@ -1,3 +1,5 @@
+Plutôt que Binder ou Jupyterlite, il est en fait préférable d'utiliser [Basthon](https://notebook.basthon.fr/) qui marche mieux.
+
 # Informatique commune de 1ère année en CPGE
 
 Sur ce site, vous trouverez un cours et des exercices corrigés correspondant au nouveau programme d'informatique commune (2021) en CPGE, utilisant Python.  
