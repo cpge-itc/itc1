@@ -43,7 +43,8 @@ nav:
     - Représentation des flottants: files/4_representation/2_representation_float/representation_flottants.md
     - TP représentation des flottants: files/4_representation/2_representation_float/tp/tp_flottant.md
   - Graphes:
-    - Définition: files/5_graph/1_definition/1_graph.md
+    - Définitions: files/5_graph/1_definition/1_graph.md
+    - Représentations: files/5_graph/2_representation/2_representation.md
     - files/5_graph/tp/tp1/tp_graph1.ipynb
 plugins:
   - mkdocs-jupyter
