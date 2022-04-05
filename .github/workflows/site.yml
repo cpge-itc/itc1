@@ -22,7 +22,8 @@ jobs:
           node-version: '16'
 
       - uses: fortierq/add-binder-link-action@latest
-
+        with:
+          server: "basthon"
       - run: |
           pip install ipython_genutils mkdocs-material scipy
           mkdir -p docs
