@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: '16'
 
-      - uses: fortierq/add-binder-link-action@v1
+      - uses: fortierq/add-binder-link-action@latest
 
       - run: |
           pip install ipython_genutils mkdocs-material scipy
