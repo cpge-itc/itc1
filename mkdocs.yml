@@ -45,6 +45,8 @@ nav:
   - Graphes:
     - Définitions: files/5_graph/1_definition/1_graph.md
     - Représentations: files/5_graph/2_representation/2_representation.md
+    - Parcours:
+      - 5_graph/3_traversal/traversal.ipynb
     - files/5_graph/tp/tp1/tp_graph1.ipynb
     - files/5_graph/tp/tp2/tp_graph2.ipynb
     - files/5_graph/tp/tp3/tp_pagerank.ipynb
