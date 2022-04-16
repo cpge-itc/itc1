@@ -43,10 +43,12 @@ nav:
     - Représentation des flottants: files/4_representation/2_representation_float/representation_flottants.md
     - TP représentation des flottants: files/4_representation/2_representation_float/tp/tp_flottant.md
   - Graphes:
-    - Définitions: files/5_graph/1_definition/1_graph.md
+    - Définitions sur les graphes: 
+      - Cours: files/5_graph/1_definition/1_graph.md
+      - files/5_graph/tp/tp2/tp_graphe_facebook.ipynb
     - Représentations: 
-      - files/5_graph/2_representation/2_representation.md
-      - files/5_graph/tp/tp2/tp_graph2.ipynb
+      - Cours: files/5_graph/2_representation/2_representation.md
+      - files/5_graph/tp/tp2/tp_matrice_adjacence.ipynb
       - files/5_graph/tp/tp3/tp_pagerank.ipynb
     - Parcours:
       - files/5_graph/3_traversal/traversal.ipynb
