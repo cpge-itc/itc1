@@ -45,7 +45,7 @@ nav:
   - Graphes:
     - Définitions sur les graphes: 
       - Cours: files/5_graph/1_definition/1_graph.md
-      - files/5_graph/tp/tp2/tp_graphe_facebook.ipynb
+      - files/5_graph/tp/tp1/tp_graphe_facebook.ipynb
     - Représentations: 
       - Cours: files/5_graph/2_representation/2_representation.md
       - files/5_graph/tp/tp2/tp_matrice_adjacence.ipynb
