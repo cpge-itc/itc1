@@ -1,4 +1,4 @@
-Plutôt que Binder ou Jupyterlite, il est en fait préférable d'utiliser [Basthon](https://notebook.basthon.fr/) qui marche mieux.
+Programme concours blanc : **graphes** (définitions, matrice d'adjacence, liste d'adjacence, parcours en profondeur)
 
 # Informatique commune de 1ère année en CPGE
 
@@ -7,7 +7,7 @@ Sur ce site, vous trouverez un cours et des exercices corrigés correspondant au
 
 ## Jupyter
 
-**Sur chaque TP, clliquer sur le titre ou ![Binder](https://mybinder.org/badge.svg) pour lancer Binder avec le TP ouvert.**
+**Sur chaque TP, clliquer sur le titre pour lancer Binder/Basthon avec le TP ouvert.**
 
 L'environnement de développement utilisé dans cours est [Jupyter](https://jupyter.org/). Vous pouvez soit le télécharger en local en suivant les instructions sur https://jupyter.org, soit utiliser une version en ligne :
 
