@@ -51,6 +51,7 @@ nav:
       - files/5_graph/tp/tp2/tp_matrice_adjacence.ipynb
       - files/5_graph/tp/tp3/tp_pagerank.ipynb
     - Parcours:
+      - Cours: files/5_graph/3_traversal/3_traversal.md
       - files/5_graph/3_traversal/traversal.ipynb
       - files/5_graph/tp/tp4/tp_labyrinth.ipynb
 plugins:
