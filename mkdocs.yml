@@ -54,6 +54,7 @@ nav:
       - Cours: files/5_graph/3_traversal/3_traversal.md
       - files/5_graph/3_traversal/traversal.ipynb
       - files/5_graph/tp/tp4/tp_labyrinth.ipynb
+      - files/5_graph/tp/tp4/tp_dfs.ipynb
 plugins:
   - mkdocs-jupyter
 theme:
