@@ -9,6 +9,7 @@ nav:
     - Concours blanc: ds/ds1_correction.md
     - DS 2: ds/ds2.pdf
     - Corrigé DS 2: ds/DS2corrigé.md
+    - Corrigé DS 3: ds/ds3/ds3_cor.md
   - Python:
     - files/0_intro/0_jupyter.ipynb
     - files/1_Python/0_variables.ipynb
