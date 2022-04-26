@@ -6,10 +6,10 @@ nav:
   - Binder: https://mybinder.org/v2/gh/fortierq/itc-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fitc1-2021%26urlpath%3Dlab%252Ftree%252Fitc1-2021%252Ffiles%26branch%3Dmaster
   - Basthon: https://notebook.basthon.fr
   - DS:
-    - Concours blanc: ds/ds1_correction.md
+    - DS 1 corrigé: ds/ds1_correction.md
     - DS 2: ds/ds2.pdf
     - Corrigé DS 2: ds/DS2corrigé.md
-    - Corrigé DS 3: ds/ds3/ds3_cor.md
+    - Corrigé DS 3: files/ds/ds3/ds3_cor.md
   - Python:
     - files/0_intro/0_jupyter.ipynb
     - files/1_Python/0_variables.ipynb
