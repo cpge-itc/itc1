@@ -23,7 +23,8 @@ jobs:
 
       - uses: fortierq/add-binder-link-action@latest
         with:
-          server: "basthon"
+          server: "colab"
+          force: "true"
 
       - run: |
           pip install ipython_genutils mkdocs-material scipy
