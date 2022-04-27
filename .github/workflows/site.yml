@@ -24,7 +24,7 @@ jobs:
       - uses: fortierq/add-binder-link-action@latest
         with:
           server: "colab"
-          force: "true"
+          force: "false"
 
       - run: |
           pip install ipython_genutils mkdocs-material scipy
