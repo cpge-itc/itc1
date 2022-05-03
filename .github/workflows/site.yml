@@ -27,7 +27,7 @@ jobs:
           force: "false"
 
       - run: |
-          pip install ipython_genutils mkdocs-material scipy
+          pip install pygments==2.11 ipython_genutils mkdocs-material scipy
           mkdir -p docs
           TMP_DIR=$(mktemp -d)
           
