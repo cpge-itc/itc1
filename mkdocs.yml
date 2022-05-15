@@ -13,7 +13,6 @@ nav:
     - Corrigé DS 3: files/ds/ds3/ds3_cor.md
     - DS 4: files/ds/ds4/ds_coloring.md
     - files/ds/ds4/ds_coloring_cor.ipynb
-
   - Python:
     - files/0_intro/0_jupyter.ipynb
     - files/1_Python/0_variables.ipynb
@@ -58,6 +57,7 @@ nav:
     - Parcours:
       - Cours: files/5_graph/3_traversal/3_traversal.md
       - files/5_graph/3_traversal/traversal.ipynb
+      - files/5_graph/3_traversal/labyrinth.ipynb
       #- files/5_graph/tp/tp4/tp_labyrinth.ipynb
       - files/5_graph/tp/tp4/tp_dfs.ipynb
 plugins:
