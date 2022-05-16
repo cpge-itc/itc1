@@ -46,7 +46,7 @@ nav:
     - TP représentation des entiers: files/4_representation/1_representation_int/td/TP_binaire.md
     - Représentation des flottants: files/4_representation/2_representation_float/representation_flottants.md
     - TP représentation des flottants: files/4_representation/2_representation_float/tp/tp_flottant.md
-  - Graphes:
+  - "Graphes : Définitions":
     - Définitions sur les graphes: 
       - Cours: files/5_graph/1_definition/1_graph.md
       - files/5_graph/tp/tp1/tp_graphe_facebook.ipynb
@@ -54,13 +54,16 @@ nav:
       - Cours: files/5_graph/2_representation/2_representation.md
       - files/5_graph/tp/tp2/tp_matrice_adjacence.ipynb
       - files/5_graph/tp/tp3/tp_pagerank.ipynb
-    - Parcours de graphe:
-      - Cours parcours en profondeur: files/5_graph/3_traversal/dfs/dfs.md
-      - Cours parcours en largeur: files/5_graph/3_traversal/bfs/bfs.md
-      - files/5_graph/3_traversal/traversal.ipynb
+  - Parcours de graphe:
+    - Parcours en profondeur:
+      - cours: files/5_graph/3_traversal/dfs/dfs.md
+      - files/5_graph/3_traversal/dfs/dfs.ipynb
       - files/5_graph/3_traversal/labyrinth.ipynb
-      #- files/5_graph/tp/tp4/tp_labyrinth.ipynb
       - files/5_graph/tp/tp4/tp_dfs.ipynb
+    - Cours parcours en largeur:
+      - cours: files/5_graph/3_traversal/bfs/bfs.md
+      - files/5_graph/3_traversal/bfs/bfs.ipynb
+      - files/5_graph/tp/tp5/tp_bfs.ipynb
 plugins:
   - mkdocs-jupyter
 theme:
