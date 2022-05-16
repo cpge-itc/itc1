@@ -56,12 +56,12 @@ nav:
       - files/5_graph/tp/tp3/tp_pagerank.ipynb
   - Parcours de graphe:
     - Parcours en profondeur:
-      - cours: files/5_graph/3_traversal/dfs/dfs.md
+      - Cours: files/5_graph/3_traversal/dfs/dfs.md
       - files/5_graph/3_traversal/dfs/dfs.ipynb
       - files/5_graph/3_traversal/labyrinth.ipynb
       - files/5_graph/tp/tp4/tp_dfs.ipynb
     - Parcours en largeur:
-      - cours: files/5_graph/3_traversal/bfs/bfs.md
+      - Cours: files/5_graph/3_traversal/bfs/bfs.md
       - files/5_graph/3_traversal/bfs/bfs.ipynb
       - files/5_graph/tp/tp5/tp_bfs.ipynb
 plugins:
