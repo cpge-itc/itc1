@@ -1,5 +1,3 @@
-Programme concours blanc : **graphes** (définitions, matrice d'adjacence, liste d'adjacence, parcours en profondeur)
-
 # Informatique commune de 1ère année en CPGE
 
 Sur ce site, vous trouverez un cours et des exercices corrigés correspondant au nouveau programme d'informatique commune (2021) en CPGE, utilisant Python.  
