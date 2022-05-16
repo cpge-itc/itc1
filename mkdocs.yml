@@ -54,8 +54,9 @@ nav:
       - Cours: files/5_graph/2_representation/2_representation.md
       - files/5_graph/tp/tp2/tp_matrice_adjacence.ipynb
       - files/5_graph/tp/tp3/tp_pagerank.ipynb
-    - Parcours:
-      - Cours: files/5_graph/3_traversal/3_traversal.md
+    - Parcours de graphe:
+      - Cours parcours en profondeur: files/5_graph/3_traversal/dfs/dfs.md
+      - Cours parcours en largeur: files/5_graph/3_traversal/bfs/bfs.md
       - files/5_graph/3_traversal/traversal.ipynb
       - files/5_graph/3_traversal/labyrinth.ipynb
       #- files/5_graph/tp/tp4/tp_labyrinth.ipynb
