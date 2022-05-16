@@ -57,12 +57,12 @@ nav:
   - Parcours de graphe:
     - Parcours en profondeur:
       - Cours: files/5_graph/3_traversal/dfs/dfs.md
-      - Code: files/5_graph/3_traversal/dfs/dfs.ipynb
+      - files/5_graph/3_traversal/dfs/code_dfs.ipynb
       - files/5_graph/3_traversal/labyrinth.ipynb
       - files/5_graph/tp/tp4/tp_dfs.ipynb
     - Parcours en largeur:
       - Cours: files/5_graph/3_traversal/bfs/bfs.md
-      - files/5_graph/3_traversal/bfs/bfs.ipynb
+      - files/5_graph/3_traversal/bfs/code_bfs.ipynb
       - files/5_graph/tp/tp5/tp_bfs.ipynb
 plugins:
   - mkdocs-jupyter
