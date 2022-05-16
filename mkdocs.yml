@@ -57,7 +57,7 @@ nav:
   - Parcours de graphe:
     - Parcours en profondeur:
       - Cours: files/5_graph/3_traversal/dfs/dfs.md
-      - files/5_graph/3_traversal/dfs/dfs.ipynb
+      - Code: files/5_graph/3_traversal/dfs/dfs.ipynb
       - files/5_graph/3_traversal/labyrinth.ipynb
       - files/5_graph/tp/tp4/tp_dfs.ipynb
     - Parcours en largeur:
