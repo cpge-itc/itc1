@@ -64,6 +64,7 @@ nav:
       - Cours: files/5_graph/3_traversal/bfs/bfs.md
       - files/5_graph/3_traversal/bfs/code_bfs.ipynb
       - files/5_graph/tp/tp5/tp_bfs.ipynb
+    - files/5_graph/tp/tp6/tp_exos_dfs_bfs.ipynb
 plugins:
   - mkdocs-jupyter
 theme:
