@@ -68,6 +68,7 @@ nav:
   - Plus courts chemins:
     - Algorithme de Dijkstra: files/5_graph/4_dijkstra/graph_shortest_path.md
     - "Code : Algorithme de Dijkstra": files/5_graph/4_dijkstra/dijkstra.ipynb
+    - 5_graph/tp/tp6/tp_dijkstra.ipynb
 plugins:
   - mkdocs-jupyter
 theme:
