@@ -66,7 +66,7 @@ nav:
       - files/5_graph/tp/tp5/tp_bfs.ipynb
     - files/5_graph/tp/tp6/tp_exos_dfs_bfs.ipynb
   - Plus courts chemins:
-    - Algorithme de Dijkstra: files/5_graph/4_dijkstra/graph_shortest_path.md
+    - Algorithme de Dijkstra: files/5_graph/4_dijkstra/dijkstra.md
     - "Code : Algorithme de Dijkstra": files/5_graph/4_dijkstra/dijkstra.ipynb
     - files/5_graph/tp/tp6/tp_dijkstra.ipynb
 plugins:
