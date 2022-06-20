@@ -71,6 +71,7 @@ nav:
       - files/5_graph/4_dijkstra/dijkstra.ipynb
       - files/5_graph/tp/tp6/tp_dijkstra.ipynb
     - Algorithme A*:
+      - Cours Algorithme A*: files/5_graph/5_astar/astar.md
       - files/5_graph/5_astar/astar.ipynb
 plugins:
   - mkdocs-jupyter
