@@ -66,9 +66,12 @@ nav:
       - files/5_graph/tp/tp5/tp_bfs.ipynb
     - files/5_graph/tp/tp6/tp_exos_dfs_bfs.ipynb
   - Plus courts chemins:
-    - "Algorithme de Dijkstra": files/5_graph/4_dijkstra/dijkstra.md
-    - "Code : Algorithme de Dijkstra": files/5_graph/4_dijkstra/dijkstra.ipynb
-    - files/5_graph/tp/tp6/tp_dijkstra.ipynb
+    - Algorithme de Dijkstra:
+      - "Cours : Algorithme de Dijkstra": files/5_graph/4_dijkstra/dijkstra.md
+      - files/5_graph/4_dijkstra/dijkstra.ipynb
+      - files/5_graph/tp/tp6/tp_dijkstra.ipynb
+    - Algorithme A*:
+      - files/5_graph/5_astar/astar.ipynb
 plugins:
   - mkdocs-jupyter
 theme:
