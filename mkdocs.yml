@@ -70,6 +70,7 @@ nav:
       - "Cours : Algorithme de Dijkstra": files/5_graph/4_dijkstra/dijkstra.md
       - files/5_graph/4_dijkstra/dijkstra.ipynb
       - files/5_graph/tp/tp6/tp_dijkstra.ipynb
+      - files/5_graph/tp/tp8/tp_osm.ipynb
     - Algorithme A*:
       - "Cours : Algorithme A*": files/5_graph/5_astar/astar.md
       - files/5_graph/5_astar/astar.ipynb
