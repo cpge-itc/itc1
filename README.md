@@ -9,3 +9,18 @@ Sur ce site, vous trouverez un cours et des exercices corrigés correspondant au
 [Tutorial Colab](https://colab.research.google.com/notebooks/basic_features_overview.ipynb#scrollTo=KR921S_OQSHG)
 
 ## [Poser des questions : https://github.com/fortierq/itc1/discussions](https://github.com/fortierq/itc1/discussions)
+
+<html> 
+  <head> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("./anim.html"); 
+    });
+    </script> 
+  </head> 
+
+  <body> 
+     <div id="includedContent"></div>
+  </body> 
+</html>
