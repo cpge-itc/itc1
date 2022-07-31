@@ -79,7 +79,7 @@ plugins:
   - mkdocs-jupyter
 theme:
   name: material
-  custom_dir: overrides
+  custom_dir: files/overrides
   logo: snake.png
   favicon: snake.png
   features:
