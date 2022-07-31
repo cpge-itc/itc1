@@ -10,7 +10,7 @@ Sur chaque TP, cliquer sur le titre pour lancer [Colab](https://colab.research.g
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
 <script> 
 $(function(){
-  $("#anim").load("./anim.html"); 
+  $("#anim").load("site/anim.html"); 
 });
 </script> 
 

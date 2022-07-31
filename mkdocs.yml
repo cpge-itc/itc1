@@ -33,7 +33,7 @@ nav:
     - files/2_tp_semestre1/9_tris.ipynb
     - "TP 10 : Jeu du Mastermind": files/2_tp_semestre1/10_mastermind.md
     - "TP 11 : Jeu du Puissance 4": files/2_tp_semestre1/11_puissance4/puissance4.md
-    - files/tp_parcoursup.ipynb
+    - files/2_tp_semestre1/tp_parcoursup.ipynb
   - Analyse d'algorithmes:
     - Complexité: 
       - Cours: files/3_algorithm_analysis/1_complexity/slides/complexite.md
@@ -78,9 +78,9 @@ plugins:
   - mkdocs-jupyter
 theme:
   name: material
-  custom_dir: overrides
-  logo: snake.png
-  favicon: snake.png
+  custom_dir: site/overrides
+  logo: site/snake.png
+  favicon: site/snake.png
   features:
     - navigation.instant
     - content.code.annotate
@@ -120,4 +120,4 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 extra_css:
-  - stylesheets/extra.css
+  - site/stylesheets/extra.css
