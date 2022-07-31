@@ -45,7 +45,7 @@ jobs:
           mv * docs/ || true
           mv $TMP_DIR/mkdocs.yml .
           mv $TMP_DIR/.git .
-          mv $TMP_DIR/overrides .
+          mv $TMP_DIR/site/overrides .
           cd docs
       
           for file in $(find . -type f -name "*.pdf"); do
