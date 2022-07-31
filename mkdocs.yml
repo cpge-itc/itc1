@@ -78,9 +78,9 @@ plugins:
   - mkdocs-jupyter
 theme:
   name: material
-  custom_dir: ./site/overrides
-  logo: ./site/snake.png
-  favicon: ./site/snake.png
+  custom_dir: site/overrides
+  logo: site/snake.png
+  favicon: site/snake.png
   features:
     - navigation.instant
     - content.code.annotate
