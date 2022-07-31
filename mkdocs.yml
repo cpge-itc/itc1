@@ -8,73 +8,73 @@ nav:
 #  - Binder: https://mybinder.org/v2/gh/fortierq/itc-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fitc1-2021%26urlpath%3Dlab%252Ftree%252Fitc1-2021%252Ffiles%26branch%3Dmaster
 #  - Basthon: https://notebook.basthon.fr
   - DS:
-    - DS 1 corrigé: files/ds/ds1_correction.md
-    - DS 2: files/ds/ds2.pdf
-    - Corrigé DS 2: files/ds/DS2corrigé.md
-    - Corrigé DS 3: files/ds/ds3/ds3_cor.md
-    - DS 4: files/ds/ds4/ds_coloring.md
-    - files/ds/ds4/ds_coloring_cor.ipynb
+    - DS 1 corrigé: ds/ds1_correction.md
+    - DS 2: ds/ds2.pdf
+    - Corrigé DS 2: ds/DS2corrigé.md
+    - Corrigé DS 3: ds/ds3/ds3_cor.md
+    - DS 4: ds/ds4/ds_coloring.md
+    - ds/ds4/ds_coloring_cor.ipynb
   - Python:
-    - files/0_intro/0_jupyter.ipynb
-    - files/1_Python/0_variables.ipynb
-    - files/1_Python/1_fonctions.ipynb
-    - files/1_Python/2_conditions.ipynb
-    - files/1_Python/3_boucles.ipynb
-    - Cours résumé de Python: files/1_Python/cours/python.md
-    - Fiche de résumé Python: files/1_Python/cours/resume_python.md
+    - 0_intro/0_jupyter.ipynb
+    - 1_Python/0_variables.ipynb
+    - 1_Python/1_fonctions.ipynb
+    - 1_Python/2_conditions.ipynb
+    - 1_Python/3_boucles.ipynb
+    - Cours résumé de Python: 1_Python/cours/python.md
+    - Fiche de résumé Python: 1_Python/cours/resume_python.md
   - TPs 1er semestre:
-    - files/2_tp_semestre1/1_dictionnaire.ipynb
-    - files/2_tp_semestre1/2_boucles_imbriquees.ipynb
-    - files/2_tp_semestre1/3_module.ipynb
-    - files/2_tp_semestre1/4_dichotomie.ipynb
-    - files/2_tp_semestre1/5_recursivite.ipynb
-    - files/2_tp_semestre1/6_fractales.ipynb
-    - files/2_tp_semestre1/7_glouton.ipynb
-    - files/2_tp_semestre1/8_matrice_image.ipynb
-    - files/2_tp_semestre1/9_tris.ipynb
-    - "TP 10 : Jeu du Mastermind": files/2_tp_semestre1/10_mastermind.md
-    - "TP 11 : Jeu du Puissance 4": files/2_tp_semestre1/11_puissance4/puissance4.md
-    - files/2_tp_semestre1/tp_parcoursup.ipynb
+    - 2_tp_semestre1/1_dictionnaire.ipynb
+    - 2_tp_semestre1/2_boucles_imbriquees.ipynb
+    - 2_tp_semestre1/3_module.ipynb
+    - 2_tp_semestre1/4_dichotomie.ipynb
+    - 2_tp_semestre1/5_recursivite.ipynb
+    - 2_tp_semestre1/6_fractales.ipynb
+    - 2_tp_semestre1/7_glouton.ipynb
+    - 2_tp_semestre1/8_matrice_image.ipynb
+    - 2_tp_semestre1/9_tris.ipynb
+    - "TP 10 : Jeu du Mastermind": 2_tp_semestre1/10_mastermind.md
+    - "TP 11 : Jeu du Puissance 4": 2_tp_semestre1/11_puissance4/puissance4.md
+    - 2_tp_semestre1/tp_parcoursup.ipynb
   - Analyse d'algorithmes:
     - Complexité: 
-      - Cours: files/3_algorithm_analysis/1_complexity/slides/complexite.md
-      - "TP 1 : tranche minimum": files/3_algorithm_analysis/1_complexity/tp/tp_complexite.md
-      - files/3_algorithm_analysis/1_complexity/tp2/tp_complexity2.ipynb
+      - Cours: 3_algorithm_analysis/1_complexity/slides/complexite.md
+      - "TP 1 : tranche minimum": 3_algorithm_analysis/1_complexity/tp/tp_complexite.md
+      - 3_algorithm_analysis/1_complexity/tp2/tp_complexity2.ipynb
     - Preuve de programme:
-        - Cours: files/3_algorithm_analysis/2_proof/slides/proof.md
+        - Cours: 3_algorithm_analysis/2_proof/slides/proof.md
   - Représentation des nombres:
-    - Représentation des entiers: files/4_representation/1_representation_int/representation_entiers.md
-    - TP représentation des entiers: files/4_representation/1_representation_int/td/TP_binaire.md
-    - Représentation des flottants: files/4_representation/2_representation_float/representation_flottants.md
-    - TP représentation des flottants: files/4_representation/2_representation_float/tp/tp_flottant.md
+    - Représentation des entiers: 4_representation/1_representation_int/representation_entiers.md
+    - TP représentation des entiers: 4_representation/1_representation_int/td/TP_binaire.md
+    - Représentation des flottants: 4_representation/2_representation_float/representation_flottants.md
+    - TP représentation des flottants: 4_representation/2_representation_float/tp/tp_flottant.md
   - "Graphes : Définitions":
     - Définitions sur les graphes: 
-      - Cours: files/5_graph/1_definition/1_graph.md
-      - files/5_graph/tp/tp1/tp_graphe_facebook.ipynb
+      - Cours: 5_graph/1_definition/1_graph.md
+      - 5_graph/tp/tp1/tp_graphe_facebook.ipynb
     - Représentations: 
-      - Cours: files/5_graph/2_representation/2_representation.md
-      - files/5_graph/tp/tp2/tp_matrice_adjacence.ipynb
-      - files/5_graph/tp/tp3/tp_pagerank.ipynb
+      - Cours: 5_graph/2_representation/2_representation.md
+      - 5_graph/tp/tp2/tp_matrice_adjacence.ipynb
+      - 5_graph/tp/tp3/tp_pagerank.ipynb
   - Parcours de graphe:
     - Parcours en profondeur:
-      - Cours: files/5_graph/3_traversal/dfs/dfs.md
-      - files/5_graph/3_traversal/dfs/code_dfs.ipynb
-      - files/5_graph/3_traversal/labyrinth.ipynb
-      - files/5_graph/tp/tp4/tp_dfs.ipynb
+      - Cours: 5_graph/3_traversal/dfs/dfs.md
+      - 5_graph/3_traversal/dfs/code_dfs.ipynb
+      - 5_graph/3_traversal/labyrinth.ipynb
+      - 5_graph/tp/tp4/tp_dfs.ipynb
     - Parcours en largeur:
-      - Cours: files/5_graph/3_traversal/bfs/bfs.md
-      - files/5_graph/3_traversal/bfs/code_bfs.ipynb
-      - files/5_graph/tp/tp5/tp_bfs.ipynb
-    - files/5_graph/tp/tp7/tp_exos_dfs_bfs.ipynb
+      - Cours: 5_graph/3_traversal/bfs/bfs.md
+      - 5_graph/3_traversal/bfs/code_bfs.ipynb
+      - 5_graph/tp/tp5/tp_bfs.ipynb
+    - 5_graph/tp/tp7/tp_exos_dfs_bfs.ipynb
   - Plus courts chemins:
     - Algorithme de Dijkstra:
-      - "Cours : Algorithme de Dijkstra": files/5_graph/4_dijkstra/dijkstra.md
-      - files/5_graph/4_dijkstra/dijkstra_code.ipynb
-      - files/5_graph/tp/tp6/tp_dijkstra.ipynb
-      - files/5_graph/tp/tp8/tp_osm.ipynb
+      - "Cours : Algorithme de Dijkstra": 5_graph/4_dijkstra/dijkstra.md
+      - 5_graph/4_dijkstra/dijkstra_code.ipynb
+      - 5_graph/tp/tp6/tp_dijkstra.ipynb
+      - 5_graph/tp/tp8/tp_osm.ipynb
     - Algorithme A*:
-      - "Cours : Algorithme A*": files/5_graph/5_astar/astar.md
-      - files/5_graph/5_astar/astar_code.ipynb
+      - "Cours : Algorithme A*": 5_graph/5_astar/astar.md
+      - 5_graph/5_astar/astar_code.ipynb
 plugins:
   - mkdocs-jupyter
 theme:
