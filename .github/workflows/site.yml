@@ -29,7 +29,6 @@ jobs:
       - run: |
           pip install pygments==2.11 ipython_genutils mkdocs-material scipy
           TMP_DIR=$(mktemp -d)
-          mkdir -p docs
           
           DIR=$(pwd)
           git clone "https://fortierq:${{ secrets.API_TOKEN_GITHUB }}@github.com/fortierq/mkdocs-jupyter.git" "$TMP_DIR/mkdocs-jupyter"
@@ -38,8 +37,6 @@ jobs:
           cd ../..
           pip install ./mkdocs-jupyter/
           cd $DIR
-
-          mv files/ docs/ || true
       
           for file in $(find . -type f -name "*.pdf"); do
             fit=Fit
