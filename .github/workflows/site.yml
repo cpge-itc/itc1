@@ -29,6 +29,7 @@ jobs:
       - run: |
           pip install pygments==2.11 ipython_genutils mkdocs-material scipy
           TMP_DIR=$(mktemp -d)
+          mkdir -p docs
           
           DIR=$(pwd)
           git clone "https://fortierq:${{ secrets.API_TOKEN_GITHUB }}@github.com/fortierq/mkdocs-jupyter.git" "$TMP_DIR/mkdocs-jupyter"
@@ -41,10 +42,10 @@ jobs:
           mv .git $TMP_DIR
           mv mkdocs.yml $TMP_DIR
           mv site/overrides $TMP_DIR
-          mv * docs/ || true
+          mv files/ docs/ || true
           mv $TMP_DIR/mkdocs.yml .
           mv $TMP_DIR/.git .
-          mv $TMP_DIR/site/overrides .
+          mv $TMP_DIR/overrides site/
           cd docs
       
           for file in $(find . -type f -name "*.pdf"); do
