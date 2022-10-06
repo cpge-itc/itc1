@@ -75,6 +75,7 @@ nav:
     - Algorithme A*:
       - "Cours : Algorithme A*": 5_graph/5_astar/astar.md
       - 5_graph/5_astar/astar_code.ipynb
+    - 2ème année: https://cpge-itc.github.io/itc2
 plugins:
   - mkdocs-jupyter
 theme:
