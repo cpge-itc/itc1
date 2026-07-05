@@ -27,7 +27,7 @@ jobs:
           force: "false"
 
       - run: |
-          pip install pygments==2.11 mkdocs-material
+          pip install pygments==2.11 'mkdocs<1.6' mkdocs-material
           TMP_DIR=$(mktemp -d)
           
           DIR=$(pwd)
